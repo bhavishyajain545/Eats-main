@@ -5,4 +5,4 @@
 - Technologies used - HTML, Tailwind CSS, JavaScript, React, Redux Toolkit, and API integration.
 
 
-
+https://eatss.netlify.app/
