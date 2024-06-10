@@ -1,0 +1,85 @@
+*{
+
+    margin: 0;
+    padding: 0;
+   
+    
+    
+}
+
+
+
+.RestaurantCard{
+
+     transition: transform 0.3s ease;
+
+
+}
+
+
+.RestaurantCard:hover{
+
+    cursor: pointer;
+    transform: scale(0.94) ;
+   
+  
+}
+
+
+
+
+
+
+
+.res-card{
+
+  
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px 80px 10px 220px;
+}
+
+
+.res-card-info{
+
+    padding: 10px;
+   
+     
+}
+
+
+
+.res-card-info >h3, .res-card-info >p{
+
+   
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    
+ 
+    
+ 
+  
+
+}
+
+.res-card-info >h3{
+
+    font-size: 19px;
+    font-weight: 200px;
+
+   
+
+
+}
+
+
+
+
+.offline-status-msg{
+
+   
+    color: red;
+    padding: 10px 400px;
+   font-weight: bolder;
+}
